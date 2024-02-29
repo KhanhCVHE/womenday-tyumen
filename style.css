@@ -1,3 +1,4 @@
+@import ("https://fonts.google.com/specimen/Vibur");
 *,
 *::after,
 *::before {
@@ -21,11 +22,8 @@
   perspective: 1000px;
 }
 
-body {
-  font-family: "Vibur", cursive;
-}
-
 .night {
+  font-family: "Vibur", cursive;
   position: fixed;
   left: 50%;
   top: 0;
@@ -44,7 +42,7 @@ body {
 .text {
   position: absolute;
   top: 15vmin;
-  left: 80vmin;
+  left: 85vmin;
   min-height: 100%;
   display: flex;
   font-size: 9.6vmin;
@@ -1261,7 +1259,6 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
-
     /*Các kiểu CSS cho màn hình di động*/
 
 @media screen and (max-width: 768px) {
