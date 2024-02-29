@@ -1261,3 +1261,31 @@ body {
 .not-loaded * {
   animation-play-state: paused !important;
 }
+
+    /*Các kiểu CSS cho màn hình di động*/
+
+@media screen and (max-width: 768px) {
+.text {
+  position: fixed;
+  top: 15vmin;
+  left: 15vmin;
+}
+.flower {
+  position: fixed;
+  left: 65vmin;
+}
+.growing-grass {
+  position: fixed;
+  left: 65vmin;
+}
+.grow-ans {
+  position: fixed;
+  left: 75vmin;
+}
+}
+    /*Các kiểu CSS cho màn hình máy tính*/
+
+@media screen and (min-width: 769px) {
+
+
+}
