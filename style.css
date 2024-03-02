@@ -15,7 +15,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  height: 95vh;
+  height: 100vh;
   width: 100vw;
   background-color: var(--dark-color);
   overflow: hidden;
@@ -42,7 +42,7 @@
 .text {
   position: absolute;
   top: 15vmin;
-  left: 85vmin;
+  left: 70vmin;
   min-height: 100%;
   display: flex;
   font-size: 9.6vmin;
@@ -91,7 +91,7 @@
 }
 
 .flower--1 .flower__line {
-  height: 70vmin;
+  height: 90vmin;
   animation-delay: 0.3s;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .flower--2 .flower__line {
-  height: 60vmin;
+  height: 80vmin;
   animation-delay: 0.6s;
 }
 
@@ -154,6 +154,8 @@
 
 .flower--3 .flower__line {
   animation-delay: 0.9s;
+  height: 80vmin;
+
 }
 
 .flower--3 .flower__line__leaf--1 {
@@ -1264,7 +1266,6 @@
 
 .first-line{
   font-size: 3vmin;
-
   position: fixed;
   font-family: "Smooch Sans";
   display: flex;
@@ -1308,7 +1309,7 @@ p {
 		text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
 			0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
 			0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
-			0 0 60px rgba(30, 132, 242, 1);
+			0 0 50px rgba(30, 132, 242, 1);
 	}
 }
 
@@ -1351,7 +1352,7 @@ p {
   font-size: 4vmin;
   position: fixed;
   left: 8vmin;
-  top: 40vmin;
+  top: 30vmin;
 
 }
 .typing p {
@@ -1364,44 +1365,49 @@ p {
   position: fixed;
   font-size: 4vmin;
   left: 4vmin;
-  top: 45vmin;
+  top: 34vmin;
 }
 
 .typing p:nth-child(2) {
+  position: fixed;
   font-size: 4vmin;
   top: 60vmin;
   left: 4vmin;
 }
 
 .typing p:nth-child(3) {
+  position: fixed;
   font-size: 4vmin;
   top: 60vmin;
   left: 4vmin;
 }
 
 .typing p:nth-child(4) {
-
+  position: fixed;
+  font-size: 4vmin;
+  top: 60vmin;
+  left: 4vmin;
 }
 
 .typing p:nth-child(5) {
   position: fixed;
   font-size: 4vmin;
+  top: 60vmin;
   left: 4vmin;
-  top: 45vmin;
 }
 
 .typing p:nth-child(6) {
   position: fixed;
   font-size: 4vmin;
+  top: 60vmin;
   left: 4vmin;
-  top: 45vmin;
 }
 
 .typing p:nth-child(7) {
   position: fixed;
   font-size: 4vmin;
+  top: 60vmin;
   left: 4vmin;
-  top: 45vmin;
 }
 
 
